@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.containerCounter {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.titleCounter {
+    color: white;
+    font-size: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.titleContainerCounter {
+    display: flex;
+    margin-left: 15px;
+}
+
+.buttonCounter {
+    margin-top: 40px;
+}
+
+.buttonCounter,
+.resultBoxCounter,
+.resetBoxCounter {
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.resultBoxCounter {
+    font-size: 30px;
+    margin-left: 290px;
+}
+
+.resetButtonCounter,
+.unableButtonCounter {
+    height: 30px;
+    width: 80px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid white;
+    color: white;
+}
+
+.resetButtonCounter:hover,
+.unableButtonCounter:active {
+    background-color: white;
+    color: black;
+}
+
+.unableButtonCounter span {
+    background-color: transparent;
+}
+
+.counterPlusClick,
+.counterMinusClick {
+    border: 3px solid white;
+    color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    font-size: 30px;
+    line-height: 10px;
+}
+
+.counterMinusClick,
+.counterPlusClick:hover {
+    cursor: pointer;
+}
+
+.counterMinusClick:active {
+    color: rgb(197, 102, 102);
+    border-color: rgb(197, 102, 102);
+}
+
+.counterPlusClick:active {
+    color: rgb(100, 202, 100);
+    border-color: rgb(100, 202, 100);
+}
+
+.resultCounter {
+    color: white;
+}
+
+.unableButtonCounter {
+    margin-left: 100px;
+    height: 50px;
+    width: 120px;
+    border-radius: 0;
+    margin-top: 35px;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 585px) {
+    .buttonCounter,
+    .resetBoxCounter {
+        margin-left: 0px;
+    }
+    .resultBoxCounter {
+        margin-left: 220px;
+    }
+}
+@media only screen and (max-width: 487px) {
+    .buttonCounter,
+    .resetBoxCounter {
+        margin-left: -50px;
+    }
+    .resultBoxCounter {
+        margin-left: 170px;
+    }
+}
+@media only screen and (max-width: 447px) {
+    .buttonCounter,
+    .resetBoxCounter {
+        margin-left: -120px;
+    }
+    .resultBoxCounter {
+        margin-left: 100px;
+    }
+}
+@media only screen and (max-width: 364px) {
+    .buttonCounter,
+    .resetBoxCounter {
+        margin-left: -160px;
+    }
+    .resultBoxCounter {
+        margin-left: 60px;
+    }
+}
+@media only screen and (max-width: 324px) {
+    .titleCounter {
+        font-size: 45px;
+    }
+    .resultBoxCounter {
+        margin-left: 40px;
+    }
+    .unableButtonCounter {
+        margin-left: 80px;
+    }
+}

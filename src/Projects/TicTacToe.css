@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+.titleTicTacToe {
+    color: white;
+    font-size: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+  }
+  
+  .titleContainerTicTacToe {
+    display: flex;
+    margin-left: 15px;
+  }
+  
+  .squareTicTacToe {
+    color: white;
+    background: #000000;
+    border: 2px solid rgb(255, 255, 255);
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 80px;
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+  }
+  
+  .gameTicTacToe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 100px;
+  }
+  
+  .statusTicTacToe {
+    color: white;
+    font-size: 35px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .winColorTicTacToe {
+    color: yellow;
+    font-weight: bolder;
+  }
+  
+  .reloadButtonTicTacToe {
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+  
+  .reloadButtonTicTacToe button{
+    background-color: black;
+    border: 2px solid white;
+    height: 40px;
+    width: 80px;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .reloadButtonTicTacToe button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 440px) {
+    .titleTicTacToe {
+      font-size: 40px;
+    }
+
+    .gameTicTacToe {
+      margin-right: 60px;
+      margin-top: 30px;
+    }
+
+    .reloadButtonTicTacToe {
+      margin-right: 60px;
+    }
+
+    .squareTicTacToe {
+      width: 67px;
+      height: 67px;
+      font-size: 45px;
+    }
+  }
+
+  @media only screen and (max-width: 347px) {
+    .titleTicTacToe {
+      font-size: 35px;
+    }
+
+    .squareTicTacToe {
+      width: 57px;
+      height: 57px;
+      font-size: 40px;
+    }
+    
+    .statusTicTacToe {
+      font-size: 25px;
+    }
+  }

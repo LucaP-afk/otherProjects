@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+  background-color: black;
+}
+
+.titleContainer {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.projectBox {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 150px;
+  border: 3px solid white;
+  border-radius: 30px;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.projectTitle {
+  border: 1px solid black;
+  height: 100px;
+  width: 200px;
+  margin-left: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectBox img {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  margin-left: 22px;
+}
+
+.projectDescription {
+  border: 1px solid black;
+  height: 100px;
+  width: 200px;
+  margin-left: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: none;
+}
+.backButton {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 639px) {
+  .projectBox {
+    width: 530px;
+  }
+}
+@media only screen and (max-width: 554px) {
+  .projectBox {
+    width: 480px;
+  }
+
+  .projectDescription {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+}
+@media only screen and (max-width: 506px) {
+  .projectBox {
+    width: 450px;
+  }
+}
+@media only screen and (max-width: 472px) {
+  .projectBox {
+    width: 430px;
+  }
+}
+@media only screen and (max-width: 454px) {
+  .projectBox {
+    width: 380px;
+  }
+  .projectDescription {
+    font-size: 13px;
+  }
+  .projectTitle {
+    font-size: 17px;
+  }
+  .titleContainer {
+    font-size: 13px;
+  }
+  .subtitleHome {
+    margin-top: -17px;
+  }
+  .titleContainer h3 {
+    margin: -5px 0;
+  }
+}
+@media only screen and (max-width: 405px) {
+  .projectBox {
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .projectBox {
+    width: 320px;
+  }
+  .projectDescription {
+    display: none;
+  }
+  .projectBox img {
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 343px) {
+  .projectBox {
+    width: 290px;
+  }
+}

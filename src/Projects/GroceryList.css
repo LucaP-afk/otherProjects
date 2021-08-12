@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+.groceryListTitle {
+    color: white;
+    font-size: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-family: 'Caveat', cursive;
+  }
+  
+  .groceryListTitleContainer {
+    display: flex;
+    margin-left: 15px;
+  }
+
+  .groceryApp {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 600px;
+    text-align: center;
+    margin-left: 35px;
+    border-radius: 10px;
+    padding-bottom: 32px;
+    font-family: 'Caveat', cursive;
+  }
+  
+  h1 {
+    margin: 32px 0;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .complete {
+    text-decoration: line-through;
+    opacity: 0.4;
+  }
+  
+  .groceryForm {
+    margin-bottom: 32px;
+  }
+  
+  .groceryInput {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #5d0cff;
+    outline: none;
+    width: 320px;
+    background: transparent;
+    color: #fff;
+  }
+  
+  .groceryInput::placeholder {
+    color: #e2e2e2;
+  }
+  
+  .groceryButton {
+    padding: 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+      90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%
+    );
+    color: #fff;
+    text-transform: capitalize;
+  }
+  
+  .groceryButton.edit {
+    background: linear-gradient(
+      90deg,
+      rgba(20, 159, 255, 1) 0%,
+      rgba(17, 122, 255, 1) 100%
+    );
+    padding: 16px 22px;
+  }
+  
+  .elementRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: #fff;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 118, 20, 1) 0%,
+      rgba(255, 84, 17, 1) 100%
+    );
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+  }
+
+  .elementRow div {
+    background-color: transparent;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+
+  .elementRow div:hover {
+    cursor: pointer;
+  }
+  
+  .elementRow:nth-child(4n + 1) {
+    background: linear-gradient(
+      90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%
+    );
+  }
+  
+  .elementRow:nth-child(4n + 2) {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 12, 241, 1) 0%,
+      rgba(250, 0, 135, 1) 100%
+    );
+  }
+  
+  .elementRow:nth-child(4n + 3) {
+    background: linear-gradient(
+      90deg,
+      rgba(20, 159, 255, 1) 0%,
+      rgba(17, 122, 255, 1) 100%
+    );
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .icons svg {
+    background-color: transparent;
+  }
+  
+  .deleteIcon {
+    margin-right: 5px;
+    color: #fff;
+  }
+  
+  .editIcon {
+    color: #fff;
+  }
+
+  @media only screen and (max-width: 504px) {
+    .groceryListTitle {
+      font-size: 2.5rem;
+    }
+    .groceryApp {
+      margin-left: 0;
+    }
+    h1 {
+      font-size: 22px;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .groceryInput {
+      max-width: 67%;
+    }
+  }
+  @media only screen and (max-width: 376px) {
+    .groceryInput {
+      max-width: 60%;
+    }
+    h1 {
+      font-size: 20px;
+    }
+    .elementRow {
+      width: 290px;
+    }
+    .groceryListTitleContainer {
+      margin-bottom: -20px;
+    }
+  }
+  @media only screen and (max-width: 340px) {
+    .groceryInput {
+      max-width: 47%;
+      margin-left: 10px;
+    }
+    .elementRow {
+      width: 240px;
+    }
+    .groceryButton.edit {
+      padding-left: 8px;
+      width: 60px;
+    }
+  }
+  @media only screen and (max-width: 318px) {
+    .groceryInput {
+      margin-left: 30px;
+    }
+    .groceryListTitle {
+      font-size: 2.1rem;
+    }
+    h1 {
+      margin-left: 30px;
+    }
+
+  }

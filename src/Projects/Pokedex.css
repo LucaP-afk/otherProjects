@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+.titleContainerPokedex {
+    display: flex;
+    margin-left: 15px;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.titlePokedex {
+    color: white;
+    font-size: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+.pokedexContainer {
+    color: white;
+}
+
+.toolbarPokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 199, 76);
+    border: 3px solid rgb(12, 12, 185);
+    margin: 0 18px;
+}
+
+.searchBox {
+    display: flex;
+    background-color: rgb(214, 214, 241);
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.searchIconPokemon {
+    color: black;
+    background-color:transparent;
+    margin: 0 3px 3px 0;
+}
+
+.searchFieldPokemon {
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    text-transform: capitalize;
+    width: 150px;
+    font-size: 15px;
+}
+
+.gridContainerPokemon {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cardPokemon {
+    border: 2px solid rgb(255, 123, 0);
+    background-color: white;
+    color: black;
+    width: 31vw;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 1170px) {
+    .cardPokemon {
+        width: 30.7vw;
+    }
+}
+@media only screen and (max-width: 1070px) {
+    .cardPokemon {
+        width: 30.1vw;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .cardPokemon {
+        width: 44vw;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .cardPokemon {
+        width: 85vw;
+    }
+    .contentInfoPokemon {
+        margin-right: 70px;
+    }
+
+    .titleContainerPokedex {
+        margin-top: -40px;
+        margin-bottom: -10px;
+    }
+
+    .pokemonInfo img {
+        max-width: 130px;
+        max-height: 130px;
+    }
+}
+
+.cardPokemon:hover {
+    cursor: pointer;
+}
+
+.cardMediaPokemon {
+    margin: auto;
+    background-color: white;
+    width: 130px;
+    height: 130px;
+}
+
+.cardContentPokemon {
+    background-color: white;
+    text-align: center;
+}
+
+.namePokemon {
+    background-color: white;
+    text-transform: capitalize;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 22px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.namePokemonInfo {
+    text-transform: capitalize;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: -10px;
+    width: 300px;
+}
+
+.spritePokemon {
+    margin-top: -12px;
+    width: 70px;
+    height: 70px;
+}
+
+.pokemonInfo {
+    user-select: none;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Baloo Tammudu 2', cursive;
+    line-height: 1px;
+    margin-top: -50px;
+}
+
+.pokemonInfo img {
+    width: 180px;
+    height: 180px;
+}
+
+.typesPokemon {
+    display: flex;
+    text-transform: capitalize;
+}
+
+.typesPokemon p {
+    margin-left: 5px;
+}
+
+.speciesPokemon {
+    text-transform: capitalize;
+}
+
+.contentInfoPokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 75px;
+}
+
+.backButtonPokemon {
+    background-color: azure;
+    width: 70px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.backButtonPokemon:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.loaderPokemon {
+    margin-bottom: 20px;
+}
+
+.notFoundPokemon {
+    font-size: 30px;
+}
